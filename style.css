@@ -8,14 +8,14 @@
 .gray-box3{
   background-color: gray;
   height: 80px;
-  width: 160px;
+  width: 170px;
   float: left;
 }
 
 .gray-box{
   background-color: gray;
   height: 80px;
-  width: 180px;
+  width: 170px;
   float: right;
 }
 
@@ -29,7 +29,7 @@
 .gray-box2{
   background-color: gray;
   height: 350px;
-  width: 135px;
+  width: 125px;
   float: right;
 }
 
@@ -43,7 +43,7 @@
 .space{
   background-color: black;
   width: 150px;
-  height: 15px;
+  height: 10px;
 }
 
 .space1{
@@ -65,6 +65,7 @@
   width: 90px;
   float: right;
   border-radius: 90px;
+  margin-bottom: 5px;
 }
 
 .yellow-light{
@@ -73,6 +74,7 @@
   width: 90px;
   float: right;
   border-radius: 90px;
+  margin-bottom: 5px;
 }
 
 .green-light{
@@ -81,5 +83,17 @@
   width: 90px;
   float: right;
   border-radius: 90px;
-  box-shadow: 0px 0px 40px lime;
+
+}
+
+.green-light:hover{
+  box-shadow: 0px 0px 40px 40px lime;
+}
+
+.red-light:hover{
+  box-shadow: 0px 0px 40px 40px red;
+}
+
+.yellow-light:hover{
+  box-shadow: 0px 0px 40px 40px yellow;
 }
