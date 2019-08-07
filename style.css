@@ -1,0 +1,85 @@
+.area{
+  height: 480px;
+  width: 400px;
+  background-color: gray;
+  display: block;
+}
+
+.gray-box3{
+  background-color: gray;
+  height: 80px;
+  width: 160px;
+  float: left;
+}
+
+.gray-box{
+  background-color: gray;
+  height: 80px;
+  width: 180px;
+  float: right;
+}
+
+.top-bar{
+  background-color: black;
+  height: 80px;
+  width: 60px;
+  float: right;
+}
+
+.gray-box2{
+  background-color: gray;
+  height: 350px;
+  width: 135px;
+  float: right;
+}
+
+.main-body{
+  background-color: black;
+  height: 300px;
+  width: 150px;
+  float: right;
+}
+
+.space{
+  background-color: black;
+  width: 150px;
+  height: 15px;
+}
+
+.space1{
+  background-color: black;
+  height: 285px;
+  width: 30px;
+  float: right;
+}
+
+.space2{
+  background-color: black;
+  height: 5px;
+  width: 150px;
+}
+
+.red-light{
+  background-color: red;
+  height: 90px;
+  width: 90px;
+  float: right;
+  border-radius: 90px;
+}
+
+.yellow-light{
+  background-color: yellow;
+  height: 90px;
+  width: 90px;
+  float: right;
+  border-radius: 90px;
+}
+
+.green-light{
+  background-color: green;
+  height: 90px;
+  width: 90px;
+  float: right;
+  border-radius: 90px;
+  box-shadow: 0px 0px 40px lime;
+}
